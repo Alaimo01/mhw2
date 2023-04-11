@@ -1,0 +1,96 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+section.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+img.checkbox{
+    justify-content: center;
+    width: 100%;
+}
+
+.choice-grid div{
+    width: 32.5%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+  }
+
+.choice-grid img{
+    width:100%;
+}
+
+@media(max-width: 700px){
+    #info{
+        display: none;
+    }
+
+    article{
+        width: 95%;
+    }
+
+}
+
+@media(max-width: 500px){
+    .choice-grid div{
+        width: 49%;
+    }
+}
+
+.choice-grid .checked{
+    background-color: #cfe3ff;
+}
+
+.choice-grid .unchecked{
+    opacity: 0.6;
+}
+
+.hidden{
+
+    display: none;
+
+}
+
+.exit{
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom : 20px;
+}
+
+.TextExit{
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+button{
+    height: 50px;
+    width: 100%;
+}
+
+.one{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/331/223/674/mordekaiser-dark-cosmic-break-league-of-legends-riot-games-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.question-name h1 {
+    background-color: rgba(3, 0, 1, 0.261);
+    color: white;
+}
+
+.two{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/803/187/591/league-of-legends-kayn-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/929/11/599/yasuo-league-of-legends-league-of-legends-spirit-blossom-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
